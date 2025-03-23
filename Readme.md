@@ -1,118 +1,95 @@
-# Sphere User Research Framework (Lean UX)  
-**Timeframe:** 2 weeks  
-**Goal:** Validate usability, desirability, and clarity of Sphere’s core features. Iterate based on feedback.  
+# Requirements for New Sphere Design Version  
+**Objective:** Create a completely new design for Sphere to be A/B tested against the current version. The goal is to identify which design performs better in terms of usability, desirability, and user engagement.  
 
 ---
 
-## 1. Framework Structure (Lean UX Cycle)  
-### **Phase 1: Build Assumptions & Prototypes (Days 1–3)**  
-- **Hypotheses**:  
-  - Users understand and trust the "unified multichain wallet".  
-  - "Click to Collect" is preferred over traditional crypto transfers.  
-  - Non-tech users feel safe storing/sharing secrets (e.g., API keys).  
-  - Locked airdrop rewards drive referrals and engagement.  
-- **Prototypes**:  
-  - Low/high-fidelity Figma flows for key tasks (e.g., Click to Collect, staking).  
-  - Demo video explaining Shamir secret sharing and security.  
+## 1. **Scope of Work**  
+The new design must include the following core features of Sphere:  
+1. **Unified Multichain Wallet (Home Tab)**:  
+   - Display assets from multiple chains in a unified view.  
+   - Ensure clarity of chain-specific details (e.g., balances, network).  
 
-### **Phase 2: Test & Learn (Days 4–10)**  
-- **User Sessions**:  
-  - 5–10 users (mix of crypto-native and mainstream).  
-  - 60-minute sessions: Task-based testing + open feedback.  
-- **Metrics**: Track KPIs (see below).  
+2. **Click to Collect**:  
+   - Redesign the flow for creating and sharing payment links.  
+   - Highlight expiration time and security features.  
 
-### **Phase 3: Iterate & Validate (Days 11–14)**  
-- Refine prototypes based on feedback.  
-- Re-test critical pain points with 3–5 users.  
-- Finalize prioritized changes.  
+3. **Secret-Key Management**:  
+   - Simplify the process of storing and sharing secrets (e.g., API keys).  
+   - Clearly communicate security measures (e.g., Shamir secret sharing).  
 
----
+4. **Rewards & Viral Growth**:  
+   - Redesign the rewards dashboard (locked airdrops, tasks).  
+   - Make referral and task completion flows intuitive.  
 
-## 2. Key Performance Indicators (KPIs)  
-### **Usability (Quantitative)**  
-- **Task Success Rate**: % of users completing tasks (e.g., creating a Click to Collect link).  
-- **Time-on-Task**: Avg. time for key actions (e.g., sending crypto vs. Click to Collect).  
-- **Error Rate**: Misclicks, navigation confusion.  
-- **System Usability Scale (SUS)**: Post-test survey (1–5 scale).  
+5. **DeFi Staking**:  
+   - Redesign the staking interface with clear yield terms and risks.  
+   - Ensure users understand the process and benefits.  
 
-### **Desirability (Qualitative)**  
-- **Net Promoter Score (NPS)**: “How likely are you to recommend Sphere?” (0–10).  
-- **Feature Appeal**: Ranking of features by usefulness (1–5).  
-- **Trust**: Confidence in security (secret sharing, key storage).  
-
-### **Feature-Specific Metrics**  
-- **Click to Collect**:  
-  - Preference over traditional transfers.  
-  - Intended use cases (payments, gifts, subscriptions).  
-- **Secret-Key Infra**:  
-  - Willingness to store/share API keys (e.g., OpenAI).  
-  - Understanding of Shamir secret sharing.  
-- **Rewards**:  
-  - Likelihood to refer friends for airdrops.  
-  - Most appealing unlock tasks (referrals, staking).  
-- **DeFi Staking**:  
-  - Clarity of yield terms/risks.  
-  - Trust in Sphere’s DeFi integration.  
+6. **Navigation & Onboarding**:  
+   - Simplify navigation between tabs.  
+   - Create a seamless onboarding experience for new users.  
 
 ---
 
-## 3. User Research Questions  
-### **A. Onboarding & First Impressions**  
-- “How would you describe Sphere in your own words?”  
-- “What’s confusing or unclear on the Home tab?”  
-- “How would you send $50 to a friend? Why?”  
-
-### **B. Click to Collect**  
-- “How would you use this feature in real life?”  
-- “What worries you about expiring payment links?”  
-- “Is this easier than sending crypto to an address? Why/why not?”  
-
-### **C. Secret-Key Management**  
-- “Would you store an OpenAI key here? Why?”  
-- “How comfortable are you lending keys for rewards?”  
-- “How would you explain Sphere’s security to a friend?”  
-
-### **D. Rewards & Viral Growth**  
-- “Which tasks would you complete first to unlock airdrops?”  
-- “Would you refer friends to Sphere? What would motivate you?”  
-- “What’s unclear about the rewards system?”  
-
-### **E. DeFi Staking**  
-- “What do you expect to happen when you stake tokens here?”  
-- “What risks do you see in staking via Sphere?”  
-
-### **F. Trust & Security**  
-- “How safe do you feel using Sphere for multichain assets?”  
-- “Would you use this for high-value transactions? Why/why not?”  
+## 2. **Design Principles**  
+- **Clarity**: Ensure all features are self-explanatory.  
+- **Trust**: Communicate security and reliability at every step.  
+- **Engagement**: Make the app visually appealing and interactive.  
+- **Accessibility**: Design for both crypto-native and mainstream users.  
 
 ---
 
-## 4. Execution Plan  
-### **Recruitment**  
-- **10 users**: 5 crypto-savvy (DeFi users), 5 mainstream (Telegram users).  
-- **Incentives**: $50 in tokens or gift cards.  
+## 3. **Deliverables**  
+1. **High-Fidelity Prototypes** (Figma or equivalent):  
+   - Complete redesign of all core features (see Scope of Work).  
+   - Interactive flows for key tasks (e.g., sending a Click to Collect link).  
 
-### **Tools**  
-- **Hotjar/Zoom**: Screen recording + facial reactions.  
-- **Google Forms**: Post-session SUS/NPS surveys.  
-- **Miro Board**: Affinity mapping of feedback.  
+2. **Design System**:  
+   - Typography, color palette, and UI components.  
+   - Consistent icons and visual language.  
 
-### **Deliverables**  
-- Prioritized usability fixes (e.g., confusing terminology).  
-- Feature adoption blockers (e.g., distrust in key sharing).  
-- User quotes highlighting emotional responses.  
-- Revised prototypes for next sprint.  
+3. **User Testing Materials**:  
+   - Task flows for A/B testing (e.g., “Send $50 to a friend”).  
+   - Survey questions to compare user satisfaction (SUS, NPS).  
+
+4. **Documentation**:  
+   - Explanation of design decisions (e.g., why a specific flow was chosen).  
+   - Accessibility considerations (e.g., font sizes, contrast).  
 
 ---
 
-## 5. Example Task Flow  
-1. **Task 1**: Send $50 to a friend using Click to Collect.  
-2. **Task 2**: Store an OpenAI key and share access for 24 hours.  
-3. **Task 3**: Check your locked airdrop and unlock it via referrals.  
-4. **Task 4**: Stake tokens and explain the expected rewards.  
+## 4. **Timeline**  
+- **Day 1–3**: Research and ideation (study current design, identify pain points).  
+- **Day 4–7**: Wireframes and low-fidelity prototypes.  
+- **Day 8–12**: High-fidelity prototypes and design system.  
+- **Day 13–14**: Final review and preparation for user testing.  
 
-**Observe**: Hesitation points, trust in irreversible actions.  
+---
 
---- 
+## 5. **Success Metrics**  
+The new design will be evaluated against the current version based on:  
+1. **Usability**:  
+   - Task success rate.  
+   - Time-on-task.  
+   - Error rate.  
 
-**Final Tip**: Prioritize friction points (security fears, unclear rewards) and iterate fast!  
+2. **Desirability**:  
+   - Net Promoter Score (NPS).  
+   - User preference (e.g., “Which design do you prefer?”).  
+
+3. **Engagement**:  
+   - Likelihood to use specific features (e.g., Click to Collect, rewards).  
+   - Willingness to refer friends.  
+
+---
+
+
+
+## 7. **Tools**  
+- **Design**: Figma, Sketch, or Adobe XD.  
+- **User Testing**: Maze, Hotjar, or UsabilityHub.  
+- **Collaboration**: Miro, Notion, or Confluence.  
+
+---
+
+**Note**: The new design should not only look different but also address any usability issues identified in the current version. The goal is to create a design that is both visually appealing and functionally superior.  
